@@ -76,3 +76,7 @@
 .wheel-button {
 position: relative;
 }
+
+#rightWheel li a{
+  background-color: white;
+}
