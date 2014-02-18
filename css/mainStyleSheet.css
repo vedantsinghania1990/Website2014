@@ -116,6 +116,9 @@ h2 {
 .modal-content{
 	background-image: url('mochaGrunge.png');
 }
+#constructionSign{
+	color:#d9534f;
+}
 /*
 .wheel-button:hover{ 
   color: black;
