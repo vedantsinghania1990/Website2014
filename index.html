@@ -12,6 +12,7 @@
     <!-- Custom Style Sheets -->
     <link href="css/mainStyleSheet.css" rel="stylesheet">
     <link href="css/wheelmenu.css" rel="stylesheet">
+    <link href="css/captionjs.css" rel="stylesheet"/>
     <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -204,13 +205,44 @@
     </div>
   </div>
   <div class="tab-pane fade" id="Blog">
-    <h1>Coming Soon..</h1> 
+    <h1>Skills</h1>
+    <div id="diagram"></div>
+      <div class="get">
+        <div class="arc">
+            <span class="text">jQuery</span>
+            <input type="hidden" class="percent" value="95" />
+            <input type="hidden" class="color" value="#97BE0D" />
+        </div>
+        <div class="arc">
+     
+            <span class="text">CSS3</span>
+            <input type="hidden" class="percent" value="90" />
+            <input type="hidden" class="color" value="#D84F5F" />
+        </div>
+        <div class="arc">
+            <span class="text">HTML5</span>
+            <input type="hidden" class="percent" value="80" />
+            <input type="hidden" class="color" value="#88B8E6" />
+     
+        </div>
+        <div class="arc">
+            <span class="text">PHP</span>
+            <input type="hidden" class="percent" value="53" />
+            <input type="hidden" class="color" value="#BEDBE9" />
+        </div>
+        <div class="arc">
+            <span class="text">MySQL</span>
+            <input type="hidden" class="percent" value="45" />
+            <input type="hidden" class="color" value="#EDEBEE" />
+        </div>
+    </div>
   </div>
   <div class="tab-pane fade in active" id="Contact">
-    <img src="img/displayPic.JPG" class="img-circle img-responsive" id="displayPic" alt="Responsive image">
+    <div id="pic">
+    <img src="img/rsz_displaypic.jpg"  id="displayPic" alt="Vedant Singhania"  class="img-responsive" />
     
     <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#myModal" id="hireButton">Learn More...</button>
-
+    </div>
   </div>
 
   </div>
@@ -224,7 +256,7 @@
         <li class="item"><a href="#Education" data-toggle="tab"><span class="glyphicon glyphicon-book"></span> Education</a></li>
         <li class="item"><a href="#Experience" data-toggle="tab"><span class="glyphicon glyphicon-briefcase"></span> Experience</a></li>
         <li class="item"><a href="#Projects" data-toggle="tab"><span class="glyphicon glyphicon-wrench"></span> Projects</a></li>
-        <li class="item"><a href="#Blog" data-toggle="tab"><span class="glyphicon glyphicon-pencil"></span> Blog  (Coming Soon..)</a></li>
+        <li class="item"><a href="#Blog" data-toggle="tab"><span class="glyphicon glyphicon-pencil"></span> Skills</a></li>
         <li class="item"><a href="#Contact" data-toggle="tab"><span class="glyphicon glyphicon-home"></span>Home</a></li>
       </ul>
 
@@ -265,8 +297,11 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.0.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    
+    <script src="js/raphael.js"></script>
     <script src="js/jquery.wheelmenu.js"></script>
   </body>
 </html>
